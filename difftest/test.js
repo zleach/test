@@ -28,7 +28,7 @@
 				"actions": [{
 					"viewId": "8377623485",
 					"changes": [{
-						"selector": "a.btn",
+						"selector": "a.btn.large",
 						"dependencies": [],
 						"attributes": {},
 						"type": "attribute",
@@ -58,7 +58,7 @@
 		"weightDistributions": null,
 		"name": null,
 		"groupId": null,
-		"commitId": "8581453580",
+		"commitId": "8703410280",
 		"decisionMetadata": null,
 		"policy": "single_experiment",
 		"changes": null
@@ -158,28 +158,6 @@
 		"tags": [],
 		"apiName": "8316902607_collections_all",
 		"id": "8477600801"
-	}, {
-		"category": "other",
-		"staticConditions": ["and", ["or", {
-			"type": "url",
-			"value": "https://www.uber.com/drive/",
-			"match": "simple"
-		}]],
-		"name": null,
-		"tags": [],
-		"apiName": "8316902607_uber_home",
-		"id": "8587174170"
-	}, {
-		"category": "other",
-		"staticConditions": ["and", ["or", {
-			"type": "url",
-			"value": "amy.com",
-			"match": "simple"
-		}]],
-		"name": null,
-		"tags": [],
-		"apiName": "8316902607_amy_page",
-		"id": "8689350194"
 	}],
 	"projectId": "8316902607",
 	"namespace": "8316902607",
@@ -235,5 +213,5 @@
 			"selector": ".logo--inverted > img"
 		}
 	}],
-	"revision": "108"
+	"revision": "112"
 }
